@@ -1,0 +1,15 @@
+<section>
+  <div>
+  <label for="">Nome</label>
+  <input type="text" [(ngModel)]="nome">
+  <label for="">Sexo</label>
+  <input type="text" [(ngModel)]="sexo">
+  <label for="">Idade</label>
+  <input type="number" [(ngModel)]="idade">
+  <label for="">Valor do automovel</label>
+  <input type="number" [(ngModel)]="valorAutomovel">
+  <button  class="btn btn-primary" (click)="calcular()">CALCULE</button>
+  </div>
+
+<p>Valor da apolice: {{apolice}}</p>
+</section>

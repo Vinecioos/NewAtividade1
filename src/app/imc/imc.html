@@ -1,0 +1,11 @@
+<section>
+  <div>
+    <label for="">Peso</label>
+    <input type="number" [(ngModel)]="peso">
+    <label for="">Altura</label>
+    <input type="number" [(ngModel)]="altura">
+    <button class="btn btn-primary" (click)="calcular()">CALCULE</button>
+  </div>
+  <P>IMC: {{IMC}}</P>
+  <p>Seu resultado: {{resultado}}</p>
+</section>

@@ -1,0 +1,27 @@
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+
+}
+
+div{
+  border: 2px solid black;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  box-shadow:  0 0 15px black;
+}
+
+p{
+  font-weight: bold;
+}
+
+button{
+  margin-top: 15px;
+}
